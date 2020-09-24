@@ -13,7 +13,7 @@ public class DemoApplication extends SpringBootServletInitializer{
     // 用来测试访问
     @RequestMapping("/")
     public String home() {
-        return "hello 朋友 你好啊";
+        return "hello 朋友 你好啊 我Deploy好了";
     }
 
     @RequestMapping("/hello")
